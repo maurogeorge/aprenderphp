@@ -44,9 +44,11 @@
     </section>
     <aside id="navegacao">
       <h3>Ultimos artigos</h3>
-        <?php echo $this->element('posts_recentes');?>
-        <h3 id="comentarios">Comentários</h3>
-        <?php echo $this->element('comentarios_recentes');?>
+        {% for post in site.posts limit: 5 %}
+          <ul>
+            <li><a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></li>
+          </ul>
+        {% endfor %}
         <h3 id="dicas">Dicas de leitura</h3>
         <ul id="livros">
           <li><a href="http://www.submarino.com.br/produto/1/156379/desenvolvendo+websites+com+php"><img src="/img/navegacao/desenvolvendo-websites-com-php.jpg" width="75" height="108" alt="Desenvolvendo Websites com PHP" title="Desenvolvendo Websites com PHP" /></a></li>
