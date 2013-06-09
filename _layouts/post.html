@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article id="artigo">
+<h1><a title="{{ page.title }}" href="{{ page.url }}">{{ page.title }}</a></h1>
+<p><small>Criado em: {{ page.date | date: '%d/%m/%Y' }}</small></p>
+{{ content }}
+</article>
+<footer id="artigo_rodape">
+<strong>Tags:</strong>
+{% for tag in page.tags %}
+  <span>{{ tag }}</span>
+{% endfor %}
+</footer>
