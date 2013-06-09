@@ -1,6 +1,6 @@
 /*
 +----------------------------------------------------------------+
-	Definicoes Gerais												
+  Definicoes Gerais
 +----------------------------------------------------------------+
 */
 
@@ -11,258 +11,258 @@ padding:0;
 }
 
 body{
-	background:url(../img/bg.jpg) repeat-x;
-	color: #060009;
-	font: 14px Verdana, Arial, Helvetica, sans-serif;
-	}
-	
+  background:url(../img/bg.jpg) repeat-x;
+  color: #060009;
+  font: 14px Verdana, Arial, Helvetica, sans-serif;
+  }
+
 img {
-	border: none;
-}	
+  border: none;
+}
 
 /** reset das tags do HTML5. */
-article, aside, dialog, figure, footer, header, 
-hgroup, menu, nav, section, menu { 
-	display:block;
+article, aside, dialog, figure, footer, header,
+hgroup, menu, nav, section, menu {
+  display:block;
 }
 
 /*
 +----------------------------------------------------------------+
-	Tudo												
+  Tudo
 +----------------------------------------------------------------+
 */
 
 
 #tudo {
-	width:990px;
-	margin:0 auto;
-	}
+  width:990px;
+  margin:0 auto;
+  }
 
 /*
 +----------------------------------------------------------------+
-	Topo												
+  Topo
 +----------------------------------------------------------------+
 */
 
 header {
-	background:url("../img/topo/bg.jpg") no-repeat;
-	height:350px;
-	position:relative;
-	}
-	
+  background:url("../img/topo/bg.jpg") no-repeat;
+  height:350px;
+  position:relative;
+  }
+
 header h1 a, header #rss {
-	display:block;
-	height:70px;
-	top:18px;
-	position:absolute;
-	text-indent:-10000px;
-	width:390px;
-}	
+  display:block;
+  height:70px;
+  top:18px;
+  position:absolute;
+  text-indent:-10000px;
+  width:390px;
+}
 
 header a#rss {
-	background:url("../img/topo/rss.jpg") 14px -7px no-repeat;
-	right:50px;
-	top:80px;
-	width:260px;
-	height:150px;
+  background:url("../img/topo/rss.jpg") 14px -7px no-repeat;
+  right:50px;
+  top:80px;
+  width:260px;
+  height:150px;
 }
 
 header a#rss:hover {
-	 background-position: -250px 0;
+   background-position: -250px 0;
 }
 
 
 /*
-	Acessibilidade
+  Acessibilidade
 */
 header #acessibilidade {
-	color:#fff;
-	font-size:10px;
-	position:absolute;
-	right:0;
+  color:#fff;
+  font-size:10px;
+  position:absolute;
+  right:0;
 }
 
 header #acessibilidade ul {
-	list-style:none;
-}	
+  list-style:none;
+}
 
 header #acessibilidade ul li {
-	display:inline;
+  display:inline;
 }
 
 header #acessibilidade ul li a {
-	color:#fff;
-	text-decoration:none;
+  color:#fff;
+  text-decoration:none;
 }
 
 header #acessibilidade ul li a:hover {
-	text-decoration:underline;
+  text-decoration:underline;
 }
 
 
 
 /*
-	Menu
+  Menu
 */
 header nav#menu {
-	background:url("../img/topo/nav/bg.jpg") bottom repeat-x;
-	position:absolute;
-	bottom:50px;
-	height:84px;
-	width:100%;
+  background:url("../img/topo/nav/bg.jpg") bottom repeat-x;
+  position:absolute;
+  bottom:50px;
+  height:84px;
+  width:100%;
 }
 
 
 header nav#menu li {
-	list-style:none;	
-	display:inline;
-	}
-	
+  list-style:none;
+  display:inline;
+  }
+
 header nav#menu li a {
-	color:#fff;
-	font:bold 30px Arial, Helvetica, sans-serif;
-	float:left;
-	margin-right:30px;
-	padding-bottom:18px;
-	text-decoration:none;
-	}
-	
+  color:#fff;
+  font:bold 30px Arial, Helvetica, sans-serif;
+  float:left;
+  margin-right:30px;
+  padding-bottom:18px;
+  text-decoration:none;
+  }
+
 header nav#menu a:hover, header nav#menu a.selecionado{
-	background:url("../img/topo/nav/marcador.jpg") no-repeat bottom center;
-	color:#fff;
-	border-color:#00f;
-	}	
+  background:url("../img/topo/nav/marcador.jpg") no-repeat bottom center;
+  color:#fff;
+  border-color:#00f;
+  }
 
 
 
 /*
-	breadcrumb
+  breadcrumb
 */
 header nav#breadcrumb {
-	position:absolute;
-	bottom:55px;
-	
+  position:absolute;
+  bottom:55px;
+
 }
 
 header nav#breadcrumb a {
-	color:#fff;
+  color:#fff;
 }
 
 header nav#breadcrumb p {
-	font:italic 16px Georgia, "Times New Roman", Times, serif;
-	float:left;
-	margin-right:10px;
+  font:italic 16px Georgia, "Times New Roman", Times, serif;
+  float:left;
+  margin-right:10px;
 }
 
 header nav#breadcrumb ul {
-	background:#fff;
-	border:1px solid #69D2E7;
-	-moz-border-radius:8px;
-	float:left;
-	
+  background:#fff;
+  border:1px solid #69D2E7;
+  -moz-border-radius:8px;
+  float:left;
+
 }
 
 header nav#breadcrumb li {
-	background:url("../img/topo/breadcrumb/separador.jpg") center right no-repeat;
-	list-style:none;
-	display:inline;
-	padding-right:20px;	
-	}
+  background:url("../img/topo/breadcrumb/separador.jpg") center right no-repeat;
+  list-style:none;
+  display:inline;
+  padding-right:20px;
+  }
 
 
 header nav#breadcrumb li:first-child  {
-	padding-left:10px;	
+  padding-left:10px;
 }
 
 header nav#breadcrumb li:last-child, header nav#breadcrumb li.selecionado  {
-	background:none;
-	padding-right:10px;	
+  background:none;
+  padding-right:10px;
 }
 
 
 
 /*
 +----------------------------------------------------------------+
-	principal												
+  principal
 +----------------------------------------------------------------+
 */
 #principal {
-	width:650px;
-	float:left;
-	}
-	
+  width:650px;
+  float:left;
+  }
+
 
 #principal h1, #principal h2, #principal h3, #principal h4, #principal h5 {
-	color:#FA6900;
-	font:35px Arial, Helvetica, sans-serif;
+  color:#FA6900;
+  font:35px Arial, Helvetica, sans-serif;
 }
 
 #principal h2, #principal h3, #principal h4, #principal h5 {
-	border-bottom:1px solid #eee;
-	color:#69D2E7;
-	font-size:25px;
-	margin-top:30px;
+  border-bottom:1px solid #eee;
+  color:#69D2E7;
+  font-size:25px;
+  margin-top:30px;
 }
 
 #principal h3, #principal h4, #principal h5 {
-	border:0;
-	font-size:20px;
+  border:0;
+  font-size:20px;
 }
 
 #principal h4 {
-	font-size:20px;
+  font-size:20px;
 }
 
 #principal h5 {
-	font-size: 16px;
-	font-style: italic;
-	font-weight: bold;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 #principal h1 a, #principal h2 a {
-	color:#FA6900;	
-	text-decoration: none;
+  color:#FA6900;
+  text-decoration: none;
 }
 
 #principal h1 a:hover, #principal h2 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 #principal h2 a {
-	color:#69D2E7;	
+  color:#69D2E7;
 }
 
 #principal p {
-	margin-bottom:10px;
-	line-height:1.6;
+  margin-bottom:10px;
+  line-height:1.6;
 }
 
 
 #principal a {
-	color:#FA6900;
+  color:#FA6900;
 }
 
 #principal a:hover {
-	text-decoration:none;
+  text-decoration:none;
 }
 
 #principal a[href^="http://"]{
-	background: url("../img/link-externo.gif") no-repeat right center;
-	padding-right:15px;
+  background: url("../img/link-externo.gif") no-repeat right center;
+  padding-right:15px;
 }
 
 #principal ul, #principal ol {
-	margin:10px 0 10px 30px;
+  margin:10px 0 10px 30px;
 }
 
 #principal li {
-	margin-bottom:5px;
+  margin-bottom:5px;
 }
 
 
 #principal table, #principal tr, #principal th,  #principal td { border: 1px solid #eee; border-collapse:collapse; margin: 10px; padding:8px; }
 #principal table { margin: 10px auto; }
-#principal thead { background: #73A08C;	color:#fff; }
+#principal thead { background: #73A08C;  color:#fff; }
 
 #principal hr { border:none; background:#ccc; height:1px; margin:10px 0; }
 
@@ -272,195 +272,195 @@ header nav#breadcrumb li:last-child, header nav#breadcrumb li.selecionado  {
 
 
 #principal .observacao, #principal .destaque, #principal .dica {
-	background:#FFE14D url("../img/observacao.jpg") no-repeat 5px 5px ;
-	border:1px solid #ED8301;
-	-moz-border-radius:5px;
-	margin:10px 0;
-	padding:10px 10px 10px 60px;
+  background:#FFE14D url("../img/observacao.jpg") no-repeat 5px 5px ;
+  border:1px solid #ED8301;
+  -moz-border-radius:5px;
+  margin:10px 0;
+  padding:10px 10px 10px 60px;
 }
 
 #principal .destaque {
-	background-color: #5A9CD3;
-	background-image: url("../img/destaque.jpg");
-	border-color:#0056A6;
+  background-color: #5A9CD3;
+  background-image: url("../img/destaque.jpg");
+  border-color:#0056A6;
 }
 
 #principal .dica {
-	background-color: #B0FFB0;
-	background-image: url("../img/dica.jpg");
-	border-color:#004F00;
+  background-color: #B0FFB0;
+  background-image: url("../img/dica.jpg");
+  border-color:#004F00;
 }
 
 #principal .flash_good, #principal .flash_bad {
-	background:#B0FFB0 url(../img/flash-good.gif) no-repeat  6px;
-	border:solid 1px #0F0;
-	margin:10px 0;
-	-moz-border-radius:5px;
-	padding:15px 10px 15px 45px;
+  background:#B0FFB0 url(../img/flash-good.gif) no-repeat  6px;
+  border:solid 1px #0F0;
+  margin:10px 0;
+  -moz-border-radius:5px;
+  padding:15px 10px 15px 45px;
 }
 
 #principal .flash_good {
-	
+
 
 }
 
 #principal .flash_bad {
-	background-image: url("../img/flash-bad.gif");
-	background-color: #eccecf;
-	border-color:#f00;
+  background-image: url("../img/flash-bad.gif");
+  background-color: #eccecf;
+  border-color:#f00;
 }
 
 #principal .error-message{
-	color:red;
+  color:red;
 }
 
 /*
-	Lista artigos
+  Lista artigos
 */
 
 .entrada {
-	border-bottom:1px solid #ccc;
-	padding-bottom:10px;
+  border-bottom:1px solid #ccc;
+  padding-bottom:10px;
 }
 
 p.continue_lendo {
-	text-align:right;
+  text-align:right;
 }
 
 #paginacao {
-	margin-top:20px;
+  margin-top:20px;
 }
 
 #paginacao p {
-	font:italic 16px Georgia, "Times New Roman", Times, serif;
+  font:italic 16px Georgia, "Times New Roman", Times, serif;
 }
 
 #paginacao p, #paginacao ul {
-	float:right;
+  float:right;
 }
 
 #paginacao li {
-	list-style:none;	
-	display:inline;
-	}
-	
+  list-style:none;
+  display:inline;
+  }
+
 #paginacao li a {
-	background:#E0E4E5;
-	color:#FA6900;
-	float:left;
-	margin-left:5px;
-	-moz-border-radius:5px;
-	padding:5px;
-	text-decoration:none;
-	}
+  background:#E0E4E5;
+  color:#FA6900;
+  float:left;
+  margin-left:5px;
+  -moz-border-radius:5px;
+  padding:5px;
+  text-decoration:none;
+  }
 
 #paginacao li a:hover {
-	background:#FA6900;
-	color:#E0E4E5;	
+  background:#FA6900;
+  color:#E0E4E5;
 }
 
 #paginacao li a.selecionado {
-	background:#9EADAF;
-	color:#fff;
-}	
+  background:#9EADAF;
+  color:#fff;
+}
 
 
 /*
-	Artigo
+  Artigo
 */
 
 #artigo {}
 
 #artigos_vizinhos {
-	margin:20px 0;
+  margin:20px 0;
 }
 
 #artigos_vizinhos ul {
-	list-style:none;
-	margin:0;
+  list-style:none;
+  margin:0;
 }
 
 #artigos_vizinhos li {
-	display:inline;
-	float:left;
-	margin-right:10px;
-	padding:0 5px;
-	text-align:center;
-	width:180px;
+  display:inline;
+  float:left;
+  margin-right:10px;
+  padding:0 5px;
+  text-align:center;
+  width:180px;
 }
 
 #artigos_vizinhos li a {
-	display:block;
+  display:block;
 }
 
 #artigos_vizinhos li:first-child {
-	text-align:right;
-	padding-left:20px;
+  text-align:right;
+  padding-left:20px;
 }
 
 #artigos_vizinhos li:last-child {
-	text-align:left;
-	padding-right:20px;
+  text-align:left;
+  padding-right:20px;
 }
 
 #artigo_rodape {
-	border-top:1px solid #ccc;
-	border-bottom:1px solid #ccc;
-	padding-bottom:30px;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  padding-bottom:30px;
 }
 
 #principal #artigo_rodape h3 {
-	margin-top:10px;
+  margin-top:10px;
 }
 
 #principal #artigo_rodape a.tag {
-	background:#FA6900;
-	color:#F7F7F7;
-	
-	border:1px solid #ccc;
-	padding:1px 10px 2px;
-	line-height:2.0;
-	-moz-border-radius:10px;
-	text-decoration:none;
+  background:#FA6900;
+  color:#F7F7F7;
+
+  border:1px solid #ccc;
+  padding:1px 10px 2px;
+  line-height:2.0;
+  -moz-border-radius:10px;
+  text-decoration:none;
 }
 
 #principal #artigo_rodape a:hover.tag {
-	background:#F7F7F7;	
-	color:#FA6900;
+  background:#F7F7F7;
+  color:#FA6900;
 }
 
 #artigo_comentarios {}
 
 #artigo_comentarios h2 {
-	border-bottom:0;
+  border-bottom:0;
 }
 
 #artigo_comentarios article {
-	background:#f7f7f7;
-	border:2px solid #CCC;
-	margin-bottom:10px;
-	padding:10px;
-	-moz-border-radius:10px;
+  background:#f7f7f7;
+  border:2px solid #CCC;
+  margin-bottom:10px;
+  padding:10px;
+  -moz-border-radius:10px;
 }
 
 #artigo_comentarios .meta strong {
-	color:#69D2E7;
+  color:#69D2E7;
 }
 
 #adicionar_comentario {
 }
 
 #adicionar_comentario label, #adicionar_comentario input {
-	display:block;
+  display:block;
 }
 
 #adicionar_comentario input[type="text"], #adicionar_comentario textarea {
-	border:1px solid #ccc;
-	padding:5px;
-	border-radius:5px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	width:250px;
+  border:1px solid #ccc;
+  padding:5px;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  width:250px;
 }
 
 #adicionar_comentario input[type="text"]:focus, #adicionar_comentario textarea:focus {border:1px solid #FA6900;}
@@ -468,35 +468,35 @@ p.continue_lendo {
 
 
 #adicionar_comentario .input { margin-bottom:10px; }
-	
+
 /*
 +----------------------------------------------------------------+
-	Navegação												
+  Navegação
 +----------------------------------------------------------------+
 */
-	
+
 #navegacao {
-	border:1px solid #eee;
-	float:right;
-	width:300px;
-	}	
+  border:1px solid #eee;
+  float:right;
+  width:300px;
+  }
 
 
 /*
-	Titulos
+  Titulos
 */
 #navegacao h3 {
-	background: url("../img/navegacao/icones.jpg") 10px 10px no-repeat;
-	border-bottom: 1px solid #eee;
-	border-top: 1px solid #eee;
-	color:#FA6900;
-	font:25px Arial, Helvetica, sans-serif;
-	padding:30px 0  30px 90px;
-	
+  background: url("../img/navegacao/icones.jpg") 10px 10px no-repeat;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  color:#FA6900;
+  font:25px Arial, Helvetica, sans-serif;
+  padding:30px 0  30px 90px;
+
 }
 
 #navegacao h3:first-child {
-	border-top:none;
+  border-top:none;
 }
 
 #navegacao h3#comentarios {
@@ -510,107 +510,134 @@ p.continue_lendo {
 
 
 /*
-	Menus
+  Menus
 */
 #navegacao ul {
-	margin-bottom:40px;
+  margin-bottom:40px;
 }
 
 #navegacao li {
-	list-style: none;
+  list-style: none;
 }
 
 #navegacao li a {
-	color: #060009;
-	display: block;
-	padding: 5px;
-	border-bottom: 1px solid #eee;
-	text-decoration: none;
+  color: #060009;
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  text-decoration: none;
 }
 
 #navegacao li a:hover {
-	background-color: #F7AE74;
+  background-color: #F7AE74;
 }
 
 #navegacao li a strong {
-	color:#FA6900;
-	
+  color:#FA6900;
+
 }
 
 #navegacao ul#livros li {
-	text-align:center;
-	float:left;
-	width:100px;
+  text-align:center;
+  float:left;
+  width:100px;
 }
 
 #navegacao ul#livros li img {
-	margin: 7px 0;
+  margin: 7px 0;
 }
-	
+
 /*
 +----------------------------------------------------------------+
-	Rodapé												
+  Rodapé
 +----------------------------------------------------------------+
 */
-footer#rodape {	
-	background:#F57D21 url("../img/rodape/bg.jpg") repeat-x;
-	color:#fff;
-	clear:both;
-	margin-top:20px;
-	padding:20px 10px;
-	text-align:center;
-	}
+footer#rodape {
+  background:#F57D21 url("../img/rodape/bg.jpg") repeat-x;
+  color:#fff;
+  clear:both;
+  margin-top:20px;
+  padding:20px 10px;
+  text-align:center;
+  }
 
 footer#rodape a {
-	color:#fff;	
-}	
+  color:#fff;
+}
 
 footer#rodape a:hover {
-	text-decoration: none;	
+  text-decoration: none;
 }
 
 footer#rodape ul {
-	list-style:none;
-	margin-bottom:10px;
-}	
+  list-style:none;
+  margin-bottom:10px;
+}
 
 footer#rodape ul li {
-	display:inline;
+  display:inline;
 }
 
 
 
 /*
 +----------------------------------------------------------------+
-	Classes											
+  Classes
 +----------------------------------------------------------------+
 */
 .img-left {float:left; margin-right:5px;}
 .img-right {float:right; margin-left:5px;}
 .center {text-align:center;}
-.clear { clear:both; }	
-.clearfix {	overflow:hidden; }
+.clear { clear:both; }
+.clearfix {  overflow:hidden; }
 
 
 /*
 +----------------------------------------------------------------+
-Cake tabela SQL 										
+Cake tabela SQL
 +----------------------------------------------------------------+
 */
 
 table.cake-sql-log, table.cake-sql-log tr, table.cake-sql-log th, table.cake-sql-log td, table.cake-sql-log caption {
-	border: 1px solid #28231D;
-	border-collapse:collapse;
-	padding:5px;
+  border: 1px solid #28231D;
+  border-collapse:collapse;
+  padding:5px;
 }
 table.cake-sql-log.cake-sql-log {
-	background-color:#FFFFFF;
-	text-align: left;
-	margin: 0 auto;
+  background-color:#FFFFFF;
+  text-align: left;
+  margin: 0 auto;
 }
 
 table.cake-sql-log caption {
-	background: blue;
-	color:#fff;
-	font-size:16px;
+  background: blue;
+  color:#fff;
+  font-size:16px;
+}
+
+/*
++----------------------------------------------------------------+
+Home
++----------------------------------------------------------------+
+*/
+
+#artigo_novo {
+  width:100%;
+  clear:both;
+  overflow:hidden;
+}
+
+#artigo_novo img {
+  float:left;
+  margin:10px 10px 10px 0;
+}
+
+#o_que {
+  float:left;
+  width:300px;
+}
+
+#objetivo{
+  float:right;
+  width:300px;
 }
