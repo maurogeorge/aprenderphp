@@ -1,0 +1,25 @@
+---
+layout: default
+title: Página inicial
+meta_description: Groselhas blog de Mauro George sobre desenvolvimento web, PHP, CakePHP, Ruby, Rails, front-end, Git e o que mais for aprendendo ligado ao mundo de desenvolvimento de software
+meta_keywords: groselhas, mauro, george, desenvolvimento, web, php, cakephp, ruby, rails, git
+---
+<div class="observacao">
+  <h1><a href="/pagina/o-aprenderphp-nao-acabou-esta-apenas-em-pausa" title="Pausa no Aprender PHP">Pausa no Aprender PHP</a></h1>
+    <p>Leia mais sobre a pausa e saiba quando voltaremos com mais posts. <a href="/pagina/o-aprenderphp-nao-acabou-esta-apenas-em-pausa" title="Pausa no Aprender PHP">Continue lendo »</a></p>
+</div>
+{% assign first_post = site.posts.first %}
+<article id="artigo_novo">
+  <h1><a href="{{ first_post.url }}" title="{{ first_post.title }}">{{ first_post.title }}</a></h1>
+  <a href="{{ first_post.url }}"><img src="/img/home/php-quadro.jpg" alt="Quadro com o icone do PHP" title="{{ first_post.title }}" /></a>
+  <p>{{ first_post.summary }}. <a href="{{ first_post.url }}" title="Continue lendo » {{ first_post.title }}">Continue lendo »</a></p>
+</article>
+<article id="o_que">
+  <h2>O que é o PHP</h2>
+  <p>PHP é o acrônimo para Hypertext Preprocessor, algo como  pré-processador de hiper texto, uma linguagem de programação muito utilizada  principalmente para o desenvolvimento web. Apesar de ter a versão <a href="http://pt.wikipedia.org/wiki/PHP-GTK">PHP-GTK</a> para ambiente desktop.  No decorrer de nosso aprendizado focaremos no <a href="http://pt.wikipedia.org/wiki/PHP">PHP</a> para desenvolvimento web.</p>
+  <p>Conheça um pouco mais sobre esta linguagem que é o PHP no artigo “Introdução ao PHP”.</p>
+</article>
+<article id="objetivo">
+  <h2>Por que o PHP?</h2>
+  <p>Utilizado  amplamente no mercado em grandes empresas como na gigante  <a href="http://www.yahoo.com/">Yahoo!</a>,  passando pela rede social <a href="http://www.facebook.com/">Facebook</a>, a enciclopédia  livre e gratuita <a href="http://www.wikipedia.org/">Wikipedia</a> podemos citar também o <a href="http://www.flickr.com/">flickr</a>, <a href="http://sourceforge.net/">SourceForge</a>, <a href="http://digg.com/">Digg</a> entre outras. E para quem é iniciante o PHP  possui uma baixa curva de aprendizado com um material amplo, <a href="http://www.php.net/manual/pt_BR/index.php">inclusive em português</a>, e  uma sintaxe bastante simples além de ser uma linguagem bastante robusta e flexível.  Sem contar um fator essencial a grande <a href="http://www.php.org.br/">comunidade  de desenvolvedores PHP</a>.</p>
+</article>

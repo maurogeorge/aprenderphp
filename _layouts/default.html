@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{{ page.title }} | Aprender PHP</title>
+<link href="/favicon.ico" type="image/x-icon" rel="icon" /><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+<meta name="author" content="Mauro George"/>
+<meta name="description" content="Aprenda a desenvolver projetos em PHP do básico ao avançado."/>
+<meta name="description" content="{{ page.meta_description }}" />
+<meta name="keywords" content="{{ page.meta_keywords }}" />
+<link rel="stylesheet" media="screen, projection" type="text/css" href="/css/estilos.css">
+</head>
+<body>
+<section id="tudo" class="clearfix">
+  <header>
+        <nav id="acessibilidade">
+            <ul>
+                <li><a href="#principal">ir para o conteúdo</a></li>
+                <li>|</li>
+                <li><a href="#menu">ir para o menu</a></li>
+                <li>|</li>
+                <li><a href="#navegacao">ir para barra lateral</a></li>
+                <li>|</li>
+                <li><a href="/acessibilidade" title="o que é isso?">o que é isso?</a></li>
+            </ul>
+        </nav>
+        <h1><a href="/" title="Aprender PHP">Aprender PHP</a></h1>
+        <a href="http://feeds.feedburner.com/aprenderphp" title="Assine o RSS" id="rss">Assine o RSS</a>
+        <nav id="menu">
+            <ul>
+              <li><a href="/" title="Home" class="selecionado">Home</a></li>
+              <li><a href="/artigos" title="Artigos">Artigos</a></li>
+              <li><a href="/sobre" title="Sobre">Sobre</a></li>
+              <li><a href="/feed" title="Feed">Feed</a></li>
+              <li><a href="/contato" title="Contato">Contato</a></li>
+            </ul>
+    </nav>
+    </header>
+    <section id="principal">
+      <noscript>
+        <p class="observacao">Atualmente você esta navegando com o seu JavaScript  desabilitado, isso não lhe impedira de navegar pelo site, no entanto, <a href="http://www.orangearmy.com.br/ajuda.php">ativando o JavaScript</a> lhe proporcionará uma melhor experiência.</p>
+      </noscript>
+     {{ content }}
+    </section>
+    <aside id="navegacao">
+      <h3>Ultimos artigos</h3>
+        <?php echo $this->element('posts_recentes');?>
+        <h3 id="comentarios">Comentários</h3>
+        <?php echo $this->element('comentarios_recentes');?>
+        <h3 id="dicas">Dicas de leitura</h3>
+        <ul id="livros">
+          <li><a href="http://www.submarino.com.br/produto/1/156379/desenvolvendo+websites+com+php"><img src="/img/navegacao/desenvolvendo-websites-com-php.jpg" width="75" height="108" alt="Desenvolvendo Websites com PHP" title="Desenvolvendo Websites com PHP" /></a></li>
+          <li><a href="http://www.submarino.com.br/produto/1/222877"><img src="/img/navegacao/php-pra-quem-conhece-php.jpg" width="75" height="108" alt="PHP pra quem conhece PHP" title="PHP pra quem conhece PHP" /></a></li>
+          <li><a href="http://www.submarino.com.br/produto/1/21199314"><img src="/img/navegacao/php-programando-com-orientacao-a-objetos.jpg" width="75" height="108" alt="php Programando com Orientação a Objetos" title="php Programando com Orientação a Objetos" /></a></li>
+          <li><a href="http://www.submarino.com.br/produto/1/21504505"><img src="/img/navegacao/objetos-php-padroes-e-pratica.jpg" width="75" height="108" alt="Objetos PHP, Padrões e Prática" title="Objetos PHP, Padrões e Prática" /></a></li>
+          <li><a href="http://www.submarino.com.br/produto/1/1948835"><img src="/img/navegacao/use-a-cabeca-analise-e-projeto-orientado-ao-objeto.jpg" width="75" height="108" alt="Use a Cabeça! Análise e Projeto Orientado ao Objeto" title="Use a Cabeça! Análise e Projeto Orientado ao Objeto" /></a></li>
+          <li><a href="http://www.submarino.com.br/produto/1/21294018"><img src="/img/navegacao/use-a-cabeca-padroes-de-projeto.jpg" width="75" height="108" alt="Use a Cabeça! Padrões de Projeto" title="Use a Cabeça! Padrões de Projeto" /></a></li>
+        </ul>
+    </aside>
+    <div class="clear"></div>
+    <footer id="rodape">
+        <ul>
+          <li><a href="/" title="Home">Home</a></li>
+          <li><a href="/artigos" title="Artigos">Artigos</a></li>
+          <li><a href="/sobre" title="Sobre">Sobre</a></li>
+          <li><a href="/feed" title="Feed">Feed</a></li>
+          <li><a href="/contato" title="Contato">Contato</a></li>
+        </ul>
+        <address><a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/br/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png"/></a><br /> Aprender PHP está sob uma <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/br/">Licença Creative Commons Atribuição-Uso Não-Comercial 3.0 Brazil</a>.<br /> Você pode saber um pouco mais sobre Creative Commons em <a href="http://nerdson.com/blog/criativos-comuns/">Nerdson não vai à escola</a></address>
+    </footer>
+</section>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13136016-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
