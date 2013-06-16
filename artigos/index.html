@@ -1,0 +1,13 @@
+---
+layout: page
+title: Lista dos artigos
+meta_description: Lista dos artigos do aprender php, aumente seu conhecimento lendo um dos artigos.
+meta_keywords: PHP, artigos, lista, vários, varios, todos
+---
+{% for post in site.posts %}
+<article class="entrada">
+  <h2><a href="{{ post.url }}" title="Post {{ post.title }}">{{ post.title }}</a></h2>
+  <p>{{ post.summary }}</p>
+  <p class="continue_lendo"><a href="{{ post.url }}" title="Post {{ post.title }}">Continue lendo »</a></p>
+</article>
+{% endfor %}
