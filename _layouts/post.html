@@ -6,12 +6,6 @@ layout: default
 <p><small>Criado em: {{ page.date | date: '%d/%m/%Y' }}</small></p>
 {{ content }}
 </article>
-<footer id="artigo_rodape">
-<strong>Tags:</strong>
-{% for tag in page.tags %}
-  <span>{{ tag }}</span>
-{% endfor %}
-</footer>
 <div id="artigo_comentarios">
   <h2>Comentários</h2>
   <div id="disqus_thread"></div>
