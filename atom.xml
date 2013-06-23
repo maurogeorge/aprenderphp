@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Aprender PHP</title>
+ <link type="application/atom+xml" rel="self" href="http://maurogeorge.github.com/atom.xml"/>
+ <link href="http://maurogeorge.github.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://aprenderphp.com.br/</id>
+ <author>
+   <name>Mauro George</name>
+   <email>maurogot@gmail.com</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <id>http://aprenderphp.com.br{{ post.id }}</id>
+   <title>{{ post.title }}</title>
+   <link type="text/html" href="http://aprenderphp.com.br{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+
+</feed>
